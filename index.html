@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music player</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/53c4033439.js" crossorigin="anonymous"></script>
+
+
+
+</head>
+
+<body>
+    <h1>Music player</h1>
+
+    <div class="container">
+        <div class="inner-container">
+
+            <p id="alert"></p>
+            <div class="img-container">
+                <img src="" class="img-view" alt="" />
+            </div>
+    
+            <h4 class="songName"></h4>
+            <p class="movieName"></p>
+            <audio  >
+                <source src="">
+            </audio>
+    
+    
+            <div class="slider_container">
+                <div class="current-time"> 00:00 </div>
+                <input type="range" min="1" max="" value="0" step="1" class="seek_slider">
+                <div class="total-duration"> 00:00 </div>
+            </div>
+    
+    
+            <div class="buttons">
+                <i class="fa-solid fa-volume-xmark volumeMute"></i>
+                <i class="fa-solid fa-backward-step prev-track" ></i>
+                <i class="fa-solid fa-play play playBtn" ></i>
+                <i class="fa-solid fa-forward-step next-track"></i>
+                <i class="fa-solid fa-volume-high volumeHigh"></i>
+            </div>
+
+        </div>
+       
+    
+    </div>
+
+
+
+
+    <script src="music.js"></script>
+</body>
+
+</html>
